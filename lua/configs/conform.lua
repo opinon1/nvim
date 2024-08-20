@@ -4,6 +4,8 @@ local options = {
     css = { "prettier" },
     html = { "prettier" },
     java = { "google-java-format" },
+    rust = { "rustfmt" },
+    go = { "goimports", "gofumpt" },
   },
 
   format_on_save = {
